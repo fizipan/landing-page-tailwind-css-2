@@ -1,0 +1,16 @@
+{
+  "name": "belajar-tailwind-css",
+  "version": "1.0.0",
+  "description": "belajar-tailwindcss-2",
+  "main": "index.js",
+  "scripts": {
+    "build:css": "tailwindcss build ./src/css/style.css -o ./dist/tailwind.css"
+  },
+  "author": "Hafizh Maulana Yusliansyah",
+  "license": "ISC",
+  "dependencies": {
+    "autoprefixer": "^10.2.1",
+    "postcss": "^8.2.3",
+    "tailwindcss": "^2.0.2"
+  }
+}

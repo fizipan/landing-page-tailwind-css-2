@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.nav-link {
+  @apply opacity-50 text-lg;
+}
+
+.link-hover {
+  @apply hover:opacity-70;
+}
+
+.nav-link.active {
+  @apply opacity-100 font-bold;
+}
+
+.toggle {
+  @apply -right-0 opacity-100;
+}
+
+.nav-responsive {
+  @apply absolute z-40 top-0 h-screen -right-full transition-all bg-blue-500 flex-col justify-evenly items-center text-white w-96;
+}

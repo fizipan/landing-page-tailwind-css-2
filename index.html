@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="dist/tailwind.css" />
+    <link rel="stylesheet" href="dist/fonts/fonts.css" />
+    <title>Landing Page TAILWIND CSS</title>
+  </head>
+  <body class="overflow-x-hidden">
+    <!-- Nabvar -->
+    <nav class="shadow-md lg:shadow-none">
+      <div
+        class="container mx-auto px-10 py-4 flex justify-between items-center"
+      >
+        <div class="nav-left flex items-center">
+          <img src="/dist/img/logo.svg" class="w-10" alt="logo" />
+          <h2 class="font-bold text-2xl ml-3">Trafalgar</h2>
+        </div>
+        <div class="nav-right">
+          <ul
+            class="nav-menu flex absolute z-40 top-0 h-screen -right-full opacity-0 transition-all bg-blue-500 flex-col justify-evenly items-center text-white w-96 lg:hidden"
+          >
+            <li class="nav-item mx-4">
+              <a href="" class="nav-link active">Home</a>
+            </li>
+            <li class="nav-item mx-4">
+              <a href="" class="nav-link link-hover">Find a doctor</a>
+            </li>
+            <li class="nav-item mx-4">
+              <a href="" class="nav-link link-hover">Apps</a>
+            </li>
+            <li class="nav-item mx-4">
+              <a href="" class="nav-link link-hover">Testimonials</a>
+            </li>
+            <li class="nav-item mx-4">
+              <a href="" class="nav-link link-hover">About us</a>
+            </li>
+          </ul>
+          <ul class="nav-menu hidden lg:flex">
+            <li class="nav-item mx-4">
+              <a href="" class="nav-link active">Home</a>
+            </li>
+            <li class="nav-item mx-4">
+              <a href="" class="nav-link link-hover">Find a doctor</a>
+            </li>
+            <li class="nav-item mx-4">
+              <a href="" class="nav-link link-hover">Apps</a>
+            </li>
+            <li class="nav-item mx-4">
+              <a href="" class="nav-link link-hover">Testimonials</a>
+            </li>
+            <li class="nav-item mx-4">
+              <a href="" class="nav-link link-hover">About us</a>
+            </li>
+          </ul>
+        </div>
+        <div class="menu-toggle lg:hidden">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+            class="w-10 relative z-50"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M4 6h16M4 12h16M4 18h16"
+            />
+          </svg>
+        </div>
+      </div>
+    </nav>
+    <!-- Navbar Akhir -->
+
+    <!-- Page Content -->
+    <div class="page-content">
+      <div
+        class="container mx-auto px-10 my-12 lg:my-8 block lg:flex justify-between items-center"
+      >
+        <div class="description-landing w-full lg:w-text-landing">
+          <h1 class="font-bold text-5xl leading-none">
+            Virtual healthcare for you
+          </h1>
+          <p class="text-xl font-light leading-8 mt-5 text-gray-500">
+            Trafalgar provides progressive, and affordable healthcare,
+            accessible on mobile and online for everyone
+          </p>
+          <a
+            href=""
+            class="inline-block mt-10 w-44 rounded-3xl shadow-lg transition-all hover:bg-blue-700 transform hover:scale-105 text-white text-center px-4 py-3 bg-blue-500"
+            >Consult today</a
+          >
+        </div>
+        <div class="ilustration-landing hidden lg:block w-img-landing">
+          <img src="/dist/img/ilustration-landing.jpg" class="w-full" alt="" />
+        </div>
+      </div>
+    </div>
+    <!-- Akhit Page Content -->
+    <script>
+      const menuToggle = document.querySelector(".menu-toggle");
+      const menu = document.querySelector(".nav-menu");
+      menuToggle.addEventListener("click", function () {
+        menu.classList.toggle("toggle");
+      });
+    </script>
+  </body>
+</html>
