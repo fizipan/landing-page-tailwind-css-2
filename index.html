@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="dist/tailwind.css" />
     <link rel="stylesheet" href="dist/fonts/fonts.css" />
+    <link rel="stylesheet" href="dist/css/style.css" />
     <title>Landing Page TAILWIND CSS</title>
   </head>
   <body class="overflow-x-hidden">
@@ -77,29 +78,407 @@
 
     <!-- Page Content -->
     <div class="page-content">
-      <div
-        class="container mx-auto px-10 my-12 lg:my-8 block lg:flex justify-between items-center"
-      >
-        <div class="description-landing w-full lg:w-text-landing">
-          <h1 class="font-bold text-5xl leading-none">
-            Virtual healthcare for you
-          </h1>
-          <p class="text-xl font-light leading-8 mt-5 text-gray-500">
+      <!-- Landing Page -->
+      <div class="landing-page">
+        <div
+          class="container mx-auto px-10 my-12 lg:my-8 block lg:flex justify-between items-center"
+        >
+          <div class="description-landing w-full lg:w-text-landing">
+            <h1 class="font-bold text-5xl leading-none">
+              Virtual healthcare for you
+            </h1>
+            <p class="text-xl font-light leading-8 mt-5 text-gray-500">
+              Trafalgar provides progressive, and affordable healthcare,
+              accessible on mobile and online for everyone
+            </p>
+            <a
+              href=""
+              class="inline-block mt-10 w-44 rounded-3xl shadow-lg transition-all hover:bg-blue-700 transform hover:scale-105 text-white text-center px-4 py-3 bg-blue-500"
+              >Consult today</a
+            >
+          </div>
+          <div class="ilustration-landing hidden lg:block w-img-landing">
+            <img
+              src="/dist/img/ilustration-landing.jpg"
+              class="w-full"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+      <!-- Akhir Landing Page -->
+
+      <!-- Our Service -->
+      <div class="our-service my-52" id="our-service">
+        <div class="container mx-auto px-10">
+          <h5 class="text-center font-bold text-3xl">Our services</h5>
+          <hr class="w-14 border my-8 border-black text-center m-auto" />
+          <p class="text-gray-500 text-center px-0 lg:px-44">
+            We provide to you the best choiches for you. Adjust it to your
+            health needs and make sure your undergo treatment with our highly
+            qualified doctors you can consult with us which type of service is
+            suitable for your health
+          </p>
+
+          <div class="container-service flex flex-wrap justify-center mt-24">
+            <div
+              class="card-service bg-white w-full md:w-2/5 lg:w-1/4 text-center lg:text-left rounded-md shadow-md px-8 py-10 mr-0 md:mr-10 mb-10"
+            >
+              <div class="thumbnail-service">
+                <img
+                  src="/dist/img/search-service.svg"
+                  class="m-auto lg:m-0"
+                  alt=""
+                />
+              </div>
+              <div class="title-service font-bold text-xl mt-6 mb-2">
+                Search doctor
+              </div>
+              <div class="subtitle-service font-light text-md text-gray-500">
+                Choose your doctor from thousands of specialist, general, and
+                trusted hospitals
+              </div>
+            </div>
+            <div
+              class="card-service bg-white w-full md:w-2/5 lg:w-1/4 text-center lg:text-left rounded-md shadow-md px-8 py-10 mr-0 md:mr-10 mb-10"
+            >
+              <div class="thumbnail-service">
+                <img
+                  src="/dist/img/pharmacy-service.svg"
+                  class="block m-auto lg:m-0"
+                  alt=""
+                />
+              </div>
+              <div class="title-service font-bold text-xl mt-6 mb-2">
+                Online pharmacy
+              </div>
+              <div class="subtitle-service font-light text-md text-gray-500">
+                Buy your medicines with our mobile application with a simple
+                delivery system
+              </div>
+            </div>
+            <div
+              class="card-service bg-white w-full md:w-2/5 lg:w-1/4 text-center lg:text-left rounded-md shadow-md px-8 py-10 mr-0 md:mr-10 mb-10"
+            >
+              <div class="thumbnail-service">
+                <img
+                  src="/dist/img/consultation-service.svg"
+                  class="block m-auto lg:m-0"
+                  alt=""
+                />
+              </div>
+              <div class="title-service font-bold text-xl mt-6 mb-2">
+                Consultation
+              </div>
+              <div class="subtitle-service font-light text-md text-gray-500">
+                Free consultation with our trusted doctors and get the best
+                recomendations
+              </div>
+            </div>
+            <div
+              class="card-service bg-white w-full md:w-2/5 lg:w-1/4 text-center lg:text-left rounded-md shadow-md px-8 py-10 mr-0 md:mr-10 mb-10"
+            >
+              <div class="thumbnail-service">
+                <img
+                  src="/dist/img/info-service.svg"
+                  class="block m-auto lg:m-0"
+                  alt=""
+                />
+              </div>
+              <div class="title-service font-bold text-xl mt-6 mb-2">
+                Details info
+              </div>
+              <div class="subtitle-service font-light text-md text-gray-500">
+                Free consultation with our trusted doctors and get the best
+                recomendations
+              </div>
+            </div>
+            <div
+              class="card-service bg-white w-full md:w-2/5 lg:w-1/4 text-center lg:text-left rounded-md shadow-md px-8 py-10 mr-0 md:mr-10 mb-10"
+            >
+              <div class="thumbnail-service">
+                <img
+                  src="/dist/img/emergency-service.svg"
+                  class="block m-auto lg:m-0"
+                  alt=""
+                />
+              </div>
+              <div class="title-service font-bold text-xl mt-6 mb-2">
+                Emergency care
+              </div>
+              <div class="subtitle-service font-light text-md text-gray-500">
+                You can get 24/7 urgent care for yourself or your children and
+                your lovely family
+              </div>
+            </div>
+            <div
+              class="card-service bg-white w-full md:w-2/5 lg:w-1/4 text-center lg:text-left rounded-md shadow-md px-8 py-10 mr-0 md:mr-10 mb-10"
+            >
+              <div class="thumbnail-service">
+                <img
+                  src="/dist/img/tracking-service.svg"
+                  class="block m-auto lg:m-0"
+                  alt=""
+                />
+              </div>
+              <div class="title-service font-bold text-xl mt-6 mb-2">
+                Tracking
+              </div>
+              <div class="subtitle-service font-light text-md text-gray-500">
+                Track and save your medical history and health data
+              </div>
+            </div>
+          </div>
+
+          <div class="button-learn-more text-center mt-10">
+            <a
+              href=""
+              class="border px-8 py-3 font-semibold text-blue-700 border-blue-700 rounded-full transition-all delay-75 hover:bg-blue-700 hover:text-white"
+              >Learn more</a
+            >
+          </div>
+        </div>
+      </div>
+      <!-- Akhir Our Service -->
+
+      <!-- Provider -->
+      <div class="providers my-52" id="providers">
+        <div class="container mx-auto px-10 flex">
+          <div class="ilustration-provider w-1/2 px-5">
+            <img src="/dist/img/ilustration-provider.jpg" alt="" />
+          </div>
+          <div class="description-provider w-1/2 px-24">
+            <h5 class="font-bold text-3xl leading-relaxed">
+              Leading healthcare providers
+            </h5>
+            <hr class="w-14 border my-8 border-black" />
+            <p class="text-gray-500 leading-7">
+              Trafalgar provides progressive, and affordable healthcare,
+              accessible on mobile and online for everyone. To us, it’s not just
+              work. We take pride in the solutions we deliver
+            </p>
+            <div class="button-learn-more mt-14">
+              <a
+                href=""
+                class="border px-8 py-3 font-semibold text-blue-700 border-blue-700 rounded-full transition-all delay-75 hover:bg-blue-700 hover:text-white"
+                >Learn more</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Akhir Provider -->
+
+      <!-- Donwload -->
+      <div class="donwload my-52" id="download">
+        <div class="container mx-auto px-10 flex">
+          <div class="description-download w-1/2 px-24">
+            <h5 class="font-bold text-3xl leading-relaxed">
+              Download our mobile apps
+            </h5>
+            <hr class="w-14 border my-8 border-black" />
+            <p class="text-gray-500 leading-7">
+              Our dedicated patient engagement app and web portal allow you to
+              access information instantaneously (no tedeous form, long calls,
+              or administrative hassle) and securely
+            </p>
+            <div class="button-learn-more inline-block mt-14">
+              <a
+                href=""
+                class="border px-10 py-3 block font-semibold text-blue-700 border-blue-700 rounded-full transition-all delay-75 hover:bg-blue-700 hover:text-white"
+                >Download
+              </a>
+            </div>
+          </div>
+          <div class="ilustration-download w-1/2">
+            <img src="/dist/img/ilustration-download.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+      <!-- akhir Download -->
+
+      <!-- Customer -->
+      <div class="customer" id="customer">
+        <div class="container mx-auto px-10">
+          <div class="customer-container p-20 text-white">
+            <h5 class="font-bold text-3xl text-center">
+              What our customer are saying
+            </h5>
+            <hr class="w-14 border my-8 border-white m-auto" />
+            <div class="description-customer flex items-center mt-10">
+              <div class="profile-customer flex items-center w-1/2 px-14">
+                <div class="thumbnail-customer w-40 mr-5">
+                  <img src="/dist/img/profile-customer.png" alt="" />
+                </div>
+                <div class="detail-customer">
+                  <div class="customer-name font-bold text-xl">
+                    Edward Newgate
+                  </div>
+                  <div class="customer-company opacity-60">Founder Circle</div>
+                </div>
+              </div>
+              <div
+                class="review-customer w-1/2 opacity-75 leading-8 text-lg px-14"
+              >
+                “Our dedicated patient engagement app and web portal allow you
+                to access information instantaneously (no tedeous form, long
+                calls, or administrative hassle) and securely”
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- akhir custumer -->
+
+      <!-- Article -->
+      <div class="article my-52" id="article">
+        <div class="container mx-auto px-10">
+          <h5 class="font-bold text-3xl leading-relaxed text-center">
+            Check out our latest article
+          </h5>
+          <hr class="w-14 border mt-5 mb-20 border-black m-auto" />
+
+          <div class="container-article flex justify-center">
+            <div
+              class="card-article relative mr-10 bg-white shadow-md rounded-2xl w-1/4"
+            >
+              <div class="thumbnail-article w-full h-24">
+                <img src="/dist/img/article-1.jpg" class="w-full" alt="" />
+              </div>
+              <div class="description-article mt-36 mb-10 px-7">
+                <div class="title-article font-bold text-xl mb-2">
+                  Disease detection, check up in the laboratory
+                </div>
+                <div class="subtitle-article opacity-60 mb-5">
+                  In this case, the role of the health laboratory is very
+                  important to do a disease detection...
+                </div>
+                <a href="" class="text-blue-600 font-semibold">Read more</a>
+              </div>
+            </div>
+            <div
+              class="card-article relative mr-10 bg-white shadow-md rounded-2xl w-1/4"
+            >
+              <div class="thumbnail-article w-full h-24">
+                <img src="/dist/img/article-2.jpg" class="w-full" alt="" />
+              </div>
+              <div class="description-article mt-36 mb-10 px-7">
+                <div class="title-article font-bold text-xl mb-2">
+                  Herbal medicines that are safe for consumption
+                </div>
+                <div class="subtitle-article opacity-60 mb-5">
+                  Herbal medicine is very widely used at this time because of
+                  its very good for your health...
+                </div>
+                <a href="" class="text-blue-600 font-semibold">Read more</a>
+              </div>
+            </div>
+            <div
+              class="card-article relative mr-10 bg-white shadow-md rounded-2xl w-1/4"
+            >
+              <div class="thumbnail-article w-full h-24">
+                <img src="/dist/img/article-3.jpg" class="w-full" alt="" />
+              </div>
+              <div class="description-article mt-36 mb-10 px-7">
+                <div class="title-article font-bold text-xl mb-2">
+                  Natural care for healthy facial skin
+                </div>
+                <div class="subtitle-article opacity-60 mb-5">
+                  A healthy lifestyle should start from now and also for your
+                  skin health. There are some...
+                </div>
+                <a href="" class="text-blue-600 font-semibold">Read more</a>
+              </div>
+            </div>
+          </div>
+          <div class="button-learn-more text-center mt-20">
+            <a
+              href=""
+              class="border px-14 py-3 font-semibold text-blue-700 border-blue-700 rounded-full transition-all delay-75 hover:bg-blue-700 hover:text-white"
+              >View All</a
+            >
+          </div>
+        </div>
+      </div>
+      <!-- akhir Artiker -->
+    </div>
+    <!-- Akhit Page Content -->
+
+    <!-- footer -->
+    <footer
+      style="
+        background-image: url('/dist/img/bg-footer.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 400px;
+      "
+      class="p-32"
+    >
+      <div class="container mx-auto px-10 flex justify-between items-center">
+        <div class="copyright w-2/5 text-white">
+          <img src="/dist/img/logo-footer.svg" alt="" />
+          <p class="description mt-5 opacity-80 font-light leading-7">
             Trafalgar provides progressive, and affordable healthcare,
             accessible on mobile and online for everyone
           </p>
-          <a
-            href=""
-            class="inline-block mt-10 w-44 rounded-3xl shadow-lg transition-all hover:bg-blue-700 transform hover:scale-105 text-white text-center px-4 py-3 bg-blue-500"
-            >Consult today</a
-          >
+          <div class="label-copyright opacity-60 text-sm font-light mt-7">
+            &copy; Trafalgar PTY LTD 2020. All rights reserved
+          </div>
         </div>
-        <div class="ilustration-landing hidden lg:block w-img-landing">
-          <img src="/dist/img/ilustration-landing.jpg" class="w-full" alt="" />
+        <div class="company w-1/5 text-white">
+          <h5 class="font-bold mb-5">Company</h5>
+          <ul>
+            <li class="mb-4 text-sm font-light opacity-80">
+              <a href="">About</a>
+            </li>
+            <li class="mb-4 text-sm font-light opacity-80">
+              <a href="">Testimonials</a>
+            </li>
+            <li class="mb-4 text-sm font-light opacity-80">
+              <a href="">Find a doctor</a>
+            </li>
+            <li class="mb-4 text-sm font-light opacity-80">
+              <a href="">Apps</a>
+            </li>
+          </ul>
+        </div>
+        <div class="region w-1/5 text-white">
+          <h5 class="font-bold mb-5">Region</h5>
+          <ul>
+            <li class="mb-4 text-sm font-light opacity-80">
+              <a href="">Indonesia</a>
+            </li>
+            <li class="mb-4 text-sm font-light opacity-80">
+              <a href="">Singapore</a>
+            </li>
+            <li class="mb-4 text-sm font-light opacity-80">
+              <a href="">Hongkong</a>
+            </li>
+            <li class="mb-4 text-sm font-light opacity-80">
+              <a href="">Canada</a>
+            </li>
+          </ul>
+        </div>
+        <div class="help w-1/5 text-white">
+          <h5 class="font-bold mb-5">Help</h5>
+          <ul>
+            <li class="mb-4 text-sm font-light opacity-80">
+              <a href="">Help center</a>
+            </li>
+            <li class="mb-4 text-sm font-light opacity-80">
+              <a href="">Contact support</a>
+            </li>
+            <li class="mb-4 text-sm font-light opacity-80">
+              <a href="">Instructions</a>
+            </li>
+            <li class="mb-4 text-sm font-light opacity-80">
+              <a href="">How it works</a>
+            </li>
+          </ul>
         </div>
       </div>
-    </div>
-    <!-- Akhit Page Content -->
+    </footer>
+    <!-- akhir footer -->
     <script>
       const menuToggle = document.querySelector(".menu-toggle");
       const menu = document.querySelector(".nav-menu");

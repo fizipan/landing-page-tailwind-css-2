@@ -10,6 +10,10 @@ module.exports = {
         "text-landing": "35%",
         "img-landing": "50%",
       },
+      textColor: {
+        primary: "#000000",
+        secondary: "#7D7987",
+      },
     },
   },
   variants: {

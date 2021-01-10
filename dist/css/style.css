@@ -1,0 +1,22 @@
+.our-service {
+  background-image: url(../img/bg-service.jpg);
+  background-repeat: no-repeat;
+  background-position-y: center;
+  background-position-x: left;
+  background-size: 60%;
+}
+
+.customer-container {
+  background-image: url(../img/bg-customer.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-height: 500px;
+}
+
+@media (max-width: 768px) {
+  .our-service {
+    background-size: 90%;
+    background-position-y: 150px;
+    background-position-x: left;
+  }
+}
