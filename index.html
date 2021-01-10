@@ -10,17 +10,17 @@
   </head>
   <body class="overflow-x-hidden">
     <!-- Nabvar -->
-    <nav class="shadow-md lg:shadow-none">
-      <div
-        class="container mx-auto px-10 py-4 flex justify-between items-center"
-      >
+    <nav
+      class="navbar bg-white shadow-md lg:shadow-none fixed z-atas top-0 left-0 right-0 py-4"
+    >
+      <div class="container mx-auto px-10 flex justify-between items-center">
         <div class="nav-left flex items-center">
           <img src="/dist/img/logo.svg" class="w-10" alt="logo" />
           <h2 class="font-bold text-2xl ml-3">Trafalgar</h2>
         </div>
         <div class="nav-right">
           <ul
-            class="nav-menu flex absolute z-40 top-0 h-screen -right-1 opacity-0 transition-all bg-blue-500 flex-col justify-evenly items-center text-white w-80 lg:hidden"
+            class="nav-menu flex fixed z-50 top-0 bottom-0 h-screen -right-1 opacity-0 transition-all bg-blue-500 flex-col justify-evenly items-center text-white w-80 lg:hidden"
           >
             <li class="nav-item mx-4">
               <a href="" class="nav-link active">Home</a>
@@ -62,7 +62,7 @@
             fill="none"
             viewBox="0 0 24 24"
             stroke="currentColor"
-            class="w-10 relative z-50"
+            class="w-10 relative z-atas"
           >
             <path
               stroke-linecap="round"
@@ -77,7 +77,7 @@
     <!-- Navbar Akhir -->
 
     <!-- Page Content -->
-    <div class="page-content mb-10">
+    <div class="page-content mb-10 mt-20">
       <!-- Landing Page -->
       <div class="landing-page">
         <div
@@ -492,6 +492,17 @@
       </div>
     </footer>
     <!-- akhir footer -->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.min.js"
+      integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      $(document).scroll(function () {
+        const nav = $(".navbar");
+        nav.toggleClass("slided", $(this).scrollTop() > nav.height());
+      });
+    </script>
     <script>
       const menuToggle = document.querySelector(".menu-toggle");
       const menu = document.querySelector(".nav-menu");
