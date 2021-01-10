@@ -10,7 +10,15 @@
   background-image: url(../img/bg-customer.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  max-height: 500px;
+  min-height: 500px;
+}
+
+footer {
+  height: 400px;
+}
+
+body {
+  margin-bottom: 400px;
 }
 
 @media (max-width: 768px) {
@@ -18,5 +26,17 @@
     background-size: 90%;
     background-position-y: 150px;
     background-position-x: left;
+  }
+
+  .customer-container {
+    background: linear-gradient(208.18deg, #67c3f3 9.05%, #5a98f2 76.74%);
+  }
+
+  footer {
+    height: 1400px;
+  }
+
+  body {
+    margin-bottom: 1400px;
   }
 }

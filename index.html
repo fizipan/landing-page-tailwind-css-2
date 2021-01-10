@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html class="relative" lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -77,7 +77,7 @@
     <!-- Navbar Akhir -->
 
     <!-- Page Content -->
-    <div class="page-content">
+    <div class="page-content mb-10">
       <!-- Landing Page -->
       <div class="landing-page">
         <div
@@ -243,15 +243,17 @@
 
       <!-- Provider -->
       <div class="providers my-52" id="providers">
-        <div class="container mx-auto px-10 flex">
-          <div class="ilustration-provider w-1/2 px-5">
+        <div class="container mx-auto px-10 block lg:flex">
+          <div class="ilustration-provider hidden lg:block w-1/2 px-5">
             <img src="/dist/img/ilustration-provider.jpg" alt="" />
           </div>
-          <div class="description-provider w-1/2 px-24">
+          <div
+            class="description-provider w-full text-center lg:text-left lg:w-1/2 px-0 lg:px-24"
+          >
             <h5 class="font-bold text-3xl leading-relaxed">
               Leading healthcare providers
             </h5>
-            <hr class="w-14 border my-8 border-black" />
+            <hr class="w-14 border my-8 m-auto lg:mx-0 border-black" />
             <p class="text-gray-500 leading-7">
               Trafalgar provides progressive, and affordable healthcare,
               accessible on mobile and online for everyone. To us, it’s not just
@@ -271,12 +273,14 @@
 
       <!-- Donwload -->
       <div class="donwload my-52" id="download">
-        <div class="container mx-auto px-10 flex">
-          <div class="description-download w-1/2 px-24">
+        <div class="container mx-auto px-10 block lg:flex">
+          <div
+            class="description-download w-full lg:w-1/2 px-0 text-center lg:text-left lg:px-24"
+          >
             <h5 class="font-bold text-3xl leading-relaxed">
               Download our mobile apps
             </h5>
-            <hr class="w-14 border my-8 border-black" />
+            <hr class="w-14 border my-8 m-auto lg:mx-0 border-black" />
             <p class="text-gray-500 leading-7">
               Our dedicated patient engagement app and web portal allow you to
               access information instantaneously (no tedeous form, long calls,
@@ -290,7 +294,7 @@
               </a>
             </div>
           </div>
-          <div class="ilustration-download w-1/2">
+          <div class="ilustration-download hidden lg:block w-1/2">
             <img src="/dist/img/ilustration-download.jpg" alt="" />
           </div>
         </div>
@@ -300,13 +304,15 @@
       <!-- Customer -->
       <div class="customer" id="customer">
         <div class="container mx-auto px-10">
-          <div class="customer-container p-20 text-white">
+          <div class="customer-container p-10 lg:p-20 text-white">
             <h5 class="font-bold text-3xl text-center">
               What our customer are saying
             </h5>
             <hr class="w-14 border my-8 border-white m-auto" />
-            <div class="description-customer flex items-center mt-10">
-              <div class="profile-customer flex items-center w-1/2 px-14">
+            <div class="description-customer block lg:flex items-center mt-10">
+              <div
+                class="profile-customer flex items-center w-full lg:w-1/2 px-10 lg:px-14"
+              >
                 <div class="thumbnail-customer w-40 mr-5">
                   <img src="/dist/img/profile-customer.png" alt="" />
                 </div>
@@ -318,7 +324,7 @@
                 </div>
               </div>
               <div
-                class="review-customer w-1/2 opacity-75 leading-8 text-lg px-14"
+                class="review-customer w-full lg:w-1/2 opacity-75 leading-8 text-center lg:text-left mt-5 lg:mt-0 text-lg px-5 lg:px-14"
               >
                 “Our dedicated patient engagement app and web portal allow you
                 to access information instantaneously (no tedeous form, long
@@ -338,14 +344,16 @@
           </h5>
           <hr class="w-14 border mt-5 mb-20 border-black m-auto" />
 
-          <div class="container-article flex justify-center">
+          <div class="container-article block lg:flex justify-center">
             <div
-              class="card-article relative mr-10 bg-white shadow-md rounded-2xl w-1/4"
+              class="card-article mr-0 lg:mr-10 bg-white shadow-md rounded-2xl w-auto lg:w-1/4"
             >
-              <div class="thumbnail-article w-full h-24">
+              <div class="thumbnail-article w-full lg:h-24">
                 <img src="/dist/img/article-1.jpg" class="w-full" alt="" />
               </div>
-              <div class="description-article mt-36 mb-10 px-7">
+              <div
+                class="description-article mt-10 pb-10 box-border lg:mt-36 mb-10 px-7"
+              >
                 <div class="title-article font-bold text-xl mb-2">
                   Disease detection, check up in the laboratory
                 </div>
@@ -357,12 +365,14 @@
               </div>
             </div>
             <div
-              class="card-article relative mr-10 bg-white shadow-md rounded-2xl w-1/4"
+              class="card-article mr-0 lg:mr-10 bg-white shadow-md rounded-2xl w-auto lg:w-1/4"
             >
-              <div class="thumbnail-article w-full h-24">
+              <div class="thumbnail-article w-full lg:h-24">
                 <img src="/dist/img/article-2.jpg" class="w-full" alt="" />
               </div>
-              <div class="description-article mt-36 mb-10 px-7">
+              <div
+                class="description-article mt-10 pb-10 box-border lg:mt-36 mb-10 px-7"
+              >
                 <div class="title-article font-bold text-xl mb-2">
                   Herbal medicines that are safe for consumption
                 </div>
@@ -374,12 +384,14 @@
               </div>
             </div>
             <div
-              class="card-article relative mr-10 bg-white shadow-md rounded-2xl w-1/4"
+              class="card-article mr-0 lg:mr-10 bg-white shadow-md rounded-2xl w-auto lg:w-1/4"
             >
-              <div class="thumbnail-article w-full h-24">
+              <div class="thumbnail-article w-full lg:h-24">
                 <img src="/dist/img/article-3.jpg" class="w-full" alt="" />
               </div>
-              <div class="description-article mt-36 mb-10 px-7">
+              <div
+                class="description-article mt-10 pb-10 box-border lg:mt-36 mb-10 px-7"
+              >
                 <div class="title-article font-bold text-xl mb-2">
                   Natural care for healthy facial skin
                 </div>
@@ -391,7 +403,7 @@
               </div>
             </div>
           </div>
-          <div class="button-learn-more text-center mt-20">
+          <div class="button-learn-more text-center mt-20 relative z-10">
             <a
               href=""
               class="border px-14 py-3 font-semibold text-blue-700 border-blue-700 rounded-full transition-all delay-75 hover:bg-blue-700 hover:text-white"
@@ -410,12 +422,13 @@
         background-image: url('/dist/img/bg-footer.jpg');
         background-repeat: no-repeat;
         background-size: cover;
-        height: 400px;
       "
-      class="p-32"
+      class="py-60 md:p-32 absolute bottom-0 w-full box-border"
     >
-      <div class="container mx-auto px-10 flex justify-between items-center">
-        <div class="copyright w-2/5 text-white">
+      <div
+        class="container relative mx-auto px-10 block md:flex justify-between items-center"
+      >
+        <div class="copyright w-full md:w-2/5 text-white">
           <img src="/dist/img/logo-footer.svg" alt="" />
           <p class="description mt-5 opacity-80 font-light leading-7">
             Trafalgar provides progressive, and affordable healthcare,
@@ -425,7 +438,7 @@
             &copy; Trafalgar PTY LTD 2020. All rights reserved
           </div>
         </div>
-        <div class="company w-1/5 text-white">
+        <div class="company w-full md:w-1/5 mt-10 lg:mt-0 text-white">
           <h5 class="font-bold mb-5">Company</h5>
           <ul>
             <li class="mb-4 text-sm font-light opacity-80">
@@ -442,7 +455,7 @@
             </li>
           </ul>
         </div>
-        <div class="region w-1/5 text-white">
+        <div class="region w-full md:w-1/5 mt-10 lg:mt-0 text-white">
           <h5 class="font-bold mb-5">Region</h5>
           <ul>
             <li class="mb-4 text-sm font-light opacity-80">
@@ -459,7 +472,7 @@
             </li>
           </ul>
         </div>
-        <div class="help w-1/5 text-white">
+        <div class="help w-full md:w-1/5 mt-10 lg:mt-0 text-white">
           <h5 class="font-bold mb-5">Help</h5>
           <ul>
             <li class="mb-4 text-sm font-light opacity-80">
