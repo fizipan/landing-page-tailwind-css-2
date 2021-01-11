@@ -6,12 +6,14 @@
     <link rel="stylesheet" href="dist/tailwind.css" />
     <link rel="stylesheet" href="dist/fonts/fonts.css" />
     <link rel="stylesheet" href="dist/css/style.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <title>Landing Page TAILWIND CSS</title>
   </head>
   <body class="overflow-x-hidden">
     <!-- Nabvar -->
     <nav
       class="navbar bg-white shadow-md lg:shadow-none fixed z-atas top-0 left-0 right-0 py-4"
+      data-aos="fade-down"
     >
       <div class="container mx-auto px-4 flex justify-between items-center">
         <div class="nav-left flex items-center">
@@ -83,7 +85,13 @@
         <div
           class="container mx-auto px-4 my-12 lg:my-8 block lg:flex justify-between items-center"
         >
-          <div class="description-landing w-full lg:w-text-landing">
+          <div
+            class="description-landing w-full lg:w-text-landing"
+            data-aos="fade-right"
+            data-aos-easing="ease-in-sine"
+            data-aos-offset="300"
+            data-aos-duration="800"
+          >
             <h1 class="font-bold text-5xl leading-none">
               Virtual healthcare for you
             </h1>
@@ -97,7 +105,11 @@
               >Consult today</a
             >
           </div>
-          <div class="ilustration-landing hidden lg:block w-img-landing">
+          <div
+            class="ilustration-landing hidden lg:block w-img-landing"
+            data-aos="zoom-in"
+            data-aos-delay="1000"
+          >
             <img
               src="/dist/img/ilustration-landing.jpg"
               class="w-full"
@@ -111,9 +123,23 @@
       <!-- Our Service -->
       <div class="our-service my-52" id="our-service">
         <div class="container mx-auto px-10">
-          <h5 class="text-center font-bold text-3xl">Our services</h5>
-          <hr class="w-14 border my-8 border-black text-center m-auto" />
-          <p class="text-gray-500 text-center px-0 lg:px-44">
+          <h5
+            class="text-center font-bold text-3xl"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+          >
+            Our services
+          </h5>
+          <hr
+            class="w-14 border my-8 border-black text-center m-auto"
+            data-aos="fade-up"
+            data-aos-duration="1500"
+          />
+          <p
+            class="text-gray-500 text-center px-0 lg:px-44"
+            data-aos="fade-up"
+            data-aos-duration="2000"
+          >
             We provide to you the best choiches for you. Adjust it to your
             health needs and make sure your undergo treatment with our highly
             qualified doctors you can consult with us which type of service is
@@ -123,6 +149,9 @@
           <div class="container-service flex flex-wrap justify-center mt-24">
             <div
               class="card-service bg-white w-full md:w-2/5 lg:w-1/4 text-center lg:text-left rounded-md shadow-md px-8 py-10 mr-0 md:mr-10 mb-10"
+              data-aos="fade-up"
+              data-aos-delay="200"
+              data-aos-duration="1000"
             >
               <div class="thumbnail-service">
                 <img
@@ -141,6 +170,9 @@
             </div>
             <div
               class="card-service bg-white w-full md:w-2/5 lg:w-1/4 text-center lg:text-left rounded-md shadow-md px-8 py-10 mr-0 md:mr-10 mb-10"
+              data-aos="fade-up"
+              data-aos-delay="400"
+              data-aos-duration="1000"
             >
               <div class="thumbnail-service">
                 <img
@@ -159,6 +191,9 @@
             </div>
             <div
               class="card-service bg-white w-full md:w-2/5 lg:w-1/4 text-center lg:text-left rounded-md shadow-md px-8 py-10 mr-0 md:mr-10 mb-10"
+              data-aos="fade-up"
+              data-aos-delay="600"
+              data-aos-duration="1000"
             >
               <div class="thumbnail-service">
                 <img
@@ -177,6 +212,9 @@
             </div>
             <div
               class="card-service bg-white w-full md:w-2/5 lg:w-1/4 text-center lg:text-left rounded-md shadow-md px-8 py-10 mr-0 md:mr-10 mb-10"
+              data-aos="fade-up"
+              data-aos-delay="800"
+              data-aos-duration="1000"
             >
               <div class="thumbnail-service">
                 <img
@@ -195,6 +233,9 @@
             </div>
             <div
               class="card-service bg-white w-full md:w-2/5 lg:w-1/4 text-center lg:text-left rounded-md shadow-md px-8 py-10 mr-0 md:mr-10 mb-10"
+              data-aos="fade-up"
+              data-aos-delay="1000"
+              data-aos-duration="1000"
             >
               <div class="thumbnail-service">
                 <img
@@ -213,6 +254,9 @@
             </div>
             <div
               class="card-service bg-white w-full md:w-2/5 lg:w-1/4 text-center lg:text-left rounded-md shadow-md px-8 py-10 mr-0 md:mr-10 mb-10"
+              data-aos="fade-up"
+              data-aos-delay="1200"
+              data-aos-duration="1000"
             >
               <div class="thumbnail-service">
                 <img
@@ -244,22 +288,45 @@
       <!-- Provider -->
       <div class="providers my-52" id="providers">
         <div class="container mx-auto px-10 block lg:flex">
-          <div class="ilustration-provider hidden lg:block w-1/2 px-5">
+          <div
+            class="ilustration-provider hidden lg:block w-1/2 px-5"
+            data-aos="fade-up"
+            data-aos-duration="800"
+          >
             <img src="/dist/img/ilustration-provider.jpg" alt="" />
           </div>
           <div
             class="description-provider w-full text-center lg:text-left lg:w-1/2 px-0 lg:px-24"
           >
-            <h5 class="font-bold text-3xl leading-relaxed">
+            <h5
+              class="font-bold text-3xl leading-relaxed"
+              data-aos="fade-left"
+              data-aos-duration="800"
+            >
               Leading healthcare providers
             </h5>
-            <hr class="w-14 border my-8 m-auto lg:mx-0 border-black" />
-            <p class="text-gray-500 leading-7">
+            <hr
+              class="w-14 border my-8 m-auto lg:mx-0 border-black"
+              data-aos="fade-left"
+              data-aos-delay="400"
+              data-aos-duration="800"
+            />
+            <p
+              class="text-gray-500 leading-7"
+              data-aos="fade-left"
+              data-aos-delay="600"
+              data-aos-duration="800"
+            >
               Trafalgar provides progressive, and affordable healthcare,
               accessible on mobile and online for everyone. To us, it’s not just
               work. We take pride in the solutions we deliver
             </p>
-            <div class="button-learn-more mt-14">
+            <div
+              class="button-learn-more mt-14"
+              data-aos="fade-left"
+              data-aos-delay="800"
+              data-aos-duration="800"
+            >
               <a
                 href=""
                 class="border px-8 py-3 font-semibold text-blue-700 border-blue-700 rounded-full transition-all delay-75 hover:bg-blue-700 hover:text-white"
@@ -277,16 +344,35 @@
           <div
             class="description-download w-full lg:w-1/2 px-0 text-center lg:text-left lg:px-24"
           >
-            <h5 class="font-bold text-3xl leading-relaxed">
+            <h5
+              class="font-bold text-3xl leading-relaxed"
+              data-aos="fade-right"
+              data-aos-duration="800"
+            >
               Download our mobile apps
             </h5>
-            <hr class="w-14 border my-8 m-auto lg:mx-0 border-black" />
-            <p class="text-gray-500 leading-7">
+            <hr
+              class="w-14 border my-8 m-auto lg:mx-0 border-black"
+              data-aos="fade-right"
+              data-aos-delay="400"
+              data-aos-duration="800"
+            />
+            <p
+              class="text-gray-500 leading-7"
+              data-aos="fade-right"
+              data-aos-delay="600"
+              data-aos-duration="800"
+            >
               Our dedicated patient engagement app and web portal allow you to
               access information instantaneously (no tedeous form, long calls,
               or administrative hassle) and securely
             </p>
-            <div class="button-learn-more inline-block mt-14">
+            <div
+              class="button-learn-more inline-block mt-14"
+              data-aos="fade-right"
+              data-aos-delay="800"
+              data-aos-duration="800"
+            >
               <a
                 href=""
                 class="border px-10 py-3 block font-semibold text-blue-700 border-blue-700 rounded-full transition-all delay-75 hover:bg-blue-700 hover:text-white"
@@ -294,7 +380,11 @@
               </a>
             </div>
           </div>
-          <div class="ilustration-download hidden lg:block w-1/2">
+          <div
+            class="ilustration-download hidden lg:block w-1/2"
+            data-aos="fade-up"
+            data-aos-duration="800"
+          >
             <img src="/dist/img/ilustration-download.jpg" alt="" />
           </div>
         </div>
@@ -302,8 +392,13 @@
       <!-- akhir Download -->
 
       <!-- Customer -->
-      <div class="customer" id="customer">
-        <div class="container mx-auto px-4">
+      <div
+        class="customer"
+        id="customer"
+        data-aos="fade-up"
+        data-aos-duration="800"
+      >
+        <div class="container mx-auto px-4 lg:px-0">
           <div class="customer-container p-5 lg:p-20 text-white">
             <h5 class="font-bold text-3xl text-center">
               What our customer are saying
@@ -341,20 +436,31 @@
       <!-- Article -->
       <div class="article my-52" id="article">
         <div class="container mx-auto px-10">
-          <h5 class="font-bold text-3xl leading-relaxed text-center">
+          <h5
+            class="font-bold text-3xl leading-relaxed text-center"
+            data-aos="fade-up"
+            data-aos-duration="800"
+          >
             Check out our latest article
           </h5>
-          <hr class="w-14 border mt-5 mb-20 border-black m-auto" />
+          <hr
+            class="w-14 border mt-5 mb-20 border-black m-auto"
+            data-aos="fade-up"
+            data-aos-delay="200"
+            data-aos-duration="800"
+          />
 
           <div class="container-article block lg:flex justify-center">
             <div
               class="card-article mr-0 lg:mr-10 bg-white shadow-md rounded-2xl w-auto lg:w-1/4"
+              data-aos="fade-up"
+              data-aos-duration="1000"
             >
               <div class="thumbnail-article w-full lg:h-24">
                 <img src="/dist/img/article-1.jpg" class="w-full" alt="" />
               </div>
               <div
-                class="description-article mt-10 pb-10 box-border lg:mt-36 mb-10 px-7"
+                class="description-article mt-10 pb-10 lg:pb-0 box-border lg:mt-36 mb-10 px-7"
               >
                 <div class="title-article font-bold text-xl mb-2">
                   Disease detection, check up in the laboratory
@@ -368,12 +474,15 @@
             </div>
             <div
               class="card-article mr-0 lg:mr-10 bg-white shadow-md rounded-2xl w-auto lg:w-1/4"
+              data-aos="fade-up"
+              data-aos-delay="400"
+              data-aos-duration="1200"
             >
               <div class="thumbnail-article w-full lg:h-24">
                 <img src="/dist/img/article-2.jpg" class="w-full" alt="" />
               </div>
               <div
-                class="description-article mt-10 pb-10 box-border lg:mt-36 mb-10 px-7"
+                class="description-article mt-10 pb-10 lg:pb-0 box-border lg:mt-36 mb-10 px-7"
               >
                 <div class="title-article font-bold text-xl mb-2">
                   Herbal medicines that are safe for consumption
@@ -387,12 +496,15 @@
             </div>
             <div
               class="card-article mr-0 lg:mr-10 bg-white shadow-md rounded-2xl w-auto lg:w-1/4"
+              data-aos="fade-up"
+              data-aos-delay="600"
+              data-aos-duration="1400"
             >
               <div class="thumbnail-article w-full lg:h-24">
                 <img src="/dist/img/article-3.jpg" class="w-full" alt="" />
               </div>
               <div
-                class="description-article mt-10 pb-10 box-border lg:mt-36 mb-10 px-7"
+                class="description-article mt-10 pb-10 lg:pb-0 box-border lg:mt-36 mb-10 px-7"
               >
                 <div class="title-article font-bold text-xl mb-2">
                   Natural care for healthy facial skin
@@ -499,6 +611,10 @@
       integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
       crossorigin="anonymous"
     ></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
     <script>
       $(document).scroll(function () {
         const nav = $(".navbar");
