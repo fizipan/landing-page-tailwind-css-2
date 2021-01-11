@@ -18,6 +18,11 @@ footer {
   height: 400px;
 }
 
+html,
+body {
+  overflow-x: hidden;
+}
+
 body {
   margin-bottom: 400px;
 }
